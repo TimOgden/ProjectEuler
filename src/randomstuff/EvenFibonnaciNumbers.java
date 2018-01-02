@@ -8,7 +8,7 @@ import tools.TimeLogger;
  * @author Tim
  */
 public class EvenFibonnaciNumbers {
-
+    private static int lastEven = 2; //Last even number from the sequence. Used for recursion in fasterMethod()
     public static void main(String[] args) {
         TimeKeeper.startTime();
         slowMethod();
@@ -35,14 +35,25 @@ public class EvenFibonnaciNumbers {
                 total+=c;
             
         }
+        System.out.println("Total is " + total);
     }
     
     /**
      * Possibly faster method using recursion
+     * --Incorrect-- would not be faster.
+     * This would involve the same process
+     * just in a different order, because
+     * it is not possible for the recursion to
+     * move backwards through the sequence unless
+     * it already constructed the sequence.
      */
     private static void fasterMethod() {
+        int total = 0;
         
     }
     
+    /*private static int fibSeq(int c) {
+        
+    }*/
     
 }
