@@ -2,12 +2,14 @@ package January2018;
 
 /**
  * 01/03/2018
+ * Goal: Find the largest palindromic number that can be created
+ * from the product of two 3-digit numbers.
  * @author Tim
  */
 public class PalindromeNums {
     
     public static void main(String[] args) {
-                
+         
     }
     
     private static boolean isPalindromic(int n) {

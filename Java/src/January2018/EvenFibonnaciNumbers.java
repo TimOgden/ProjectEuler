@@ -4,7 +4,9 @@ import tools.TimeKeeper;
 import tools.TimeLogger;
 
 /**
- *
+ * 01/02/2018
+ * Goal: Find the sum of all even numbers in the Fibonnaci sequence given values
+ * less than 1,000,000.
  * @author Tim
  */
 public class EvenFibonnaciNumbers {
